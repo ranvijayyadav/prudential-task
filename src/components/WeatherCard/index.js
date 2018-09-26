@@ -8,7 +8,7 @@ return(
     <div>
         <h5>Time: {tile.dt_txt}</h5>
         <p>
-            <span>Genral</span>
+            <span>General</span>
             <strong><span> {String(tile.weather[0].description).toLocaleUpperCase()}</span></strong>
         </p>   
         <img src={weatherIcon} alt="Smiley face" height="42" width="42"/>

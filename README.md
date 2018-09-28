@@ -1,4 +1,4 @@
-# Weather App usin openmap API
+# Weather App using openmap API
 
 ## Steps to run app
 

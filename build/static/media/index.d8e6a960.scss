@@ -1,0 +1,80 @@
+@import "assets/scss/variables.scss";
+
+.buttonw {
+    width: 60px;
+    background-color: $primary;
+    border-radius: 0;
+    float: left;
+    height: 60px;
+    display: block;
+    min-height: 60px;
+}
+
+.logo {
+    width: 35px;
+}
+
+.menulinks {
+    float: left;
+    margin: 5px 0 0 10px;
+}
+
+.listmenu {
+    float: left;
+    display: block;
+    width: auto;
+    padding: 5px 5px 5px 20px;
+    margin: 0 5px;
+
+    > div {
+        padding: 0;
+    }
+}
+
+
+.headerbar {
+    display: block;
+    height: 60px;
+}
+
+.userwrap {
+    float: right;
+
+    .saveBtn {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 20px 0 0;
+    }
+
+    .bigAvatar {
+        border-radius: 0;
+        width: auto;
+        height: 60px;
+        padding: 10px 15px;
+        background: lightgray;
+        color: black;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    img,
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    img {
+        max-width: 40px;
+    }
+
+    span {
+        padding: 0 0 0 5px;
+        font-size: 14px;
+    }
+
+    img.icon {
+        width: 24px;
+        padding: 0 0 0 10px;
+    }
+}

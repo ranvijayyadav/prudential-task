@@ -3,6 +3,9 @@ import environments from "./../../environments";
 const WeatherCard=(props)=>{
     const tile = props.tile;
     const weatherIcon= `${environments.IMAGE_URL}${tile.weather[0].icon}.png`
+    const convertToCelcious=(temp)=>{
+        return parseInt((temp - 273.15), 10)
+    }
     
 return(
     <div>
@@ -22,8 +25,6 @@ return(
     </div>)
 
 }
-const convertToCelcious=(temp)=>{
-    return parseInt((temp - 273.15), 10)
-}
+
 
 export default WeatherCard;
